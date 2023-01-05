@@ -39,7 +39,7 @@ public class Collection_main {
 
         System.out.println("-----");
 
-        // TreeSet是有序的
+        // TreeSet是可排序的
         TreeSet<Integer> set1 = new TreeSet<>();
         set1.add(456);
         set1.add(7);
@@ -56,7 +56,6 @@ public class Collection_main {
         for (Integer e : set1) {
             System.out.println(e);
         }
-
     }
 
     private static void testList() {
